@@ -1,5 +1,7 @@
 # Xquisite-Production-Database-Design-and-Implementation.
 **Xquisite Production - A relational Database for film management**
+
+![image](Logo.png)
 ---
 
 ## Project Description  
