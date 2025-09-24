@@ -47,7 +47,7 @@ The design followed a **structured process**:
 ## 4. Database Schema and Tables  
 
 ### **Directors Table**  
-Stores information about film directors.  
+- Stores information about film directors.  
 
 ```sql
 CREATE TABLE Directors (
@@ -59,9 +59,9 @@ CREATE TABLE Directors (
 );
 ```
 ---
-## Actors Table
-```
+### Actors Table
 - Stores Actors personal details
+```
 CREATE TABLE Actors (
 Actor_id INT PRIMARY KEY IDENTITY,
 first_name VARCHAR(30),
@@ -71,7 +71,7 @@ date_of_birth DATE
 );
 ```
 ---
-**Movies Table**
+### Movies Table
 
 - Contains information about movies Produced
 ```
@@ -86,10 +86,10 @@ CREATE TABLE Movies (
 );
 ```
 ---
-**Movies Revenue Table**
-```
-- Records the domestic and International takings of each movies
+### Movies Revenue Table
 
+- Records the domestic and International takings of each movies
+```
 CREATE TABLE Movie_revenues (
 	revenue_id INT PRIMARY KEY IDENTITY,
 	movie_id INT REFERENCES Movies(movie_id),
@@ -99,9 +99,9 @@ CREATE TABLE Movie_revenues (
 ```
 ---
 
-**Movies Actors Table**
+### Movies Actors Table
 
-A joint table to handle the relationship (many-to-many).
+- A joint table to handle the relationship (many-to-many).
 ```
 CREATE TABLE Movies_actors (
 	movie_id INT REFERENCES Movies(movie_id),
@@ -111,13 +111,15 @@ CREATE TABLE Movies_actors (
 ```
 ---
 
-## 5. Relationships Between Tables  
-- **Directors → Movies**: One director can direct many movies.  
+### 5. Relationships Between Tables  
+- **Directors → Movies**: One director can direct many movies.
+```  
 - **Movies → Actors**: Many-to-Many relationship managed through the `Movies_actors` junction table.  
-- **Movies → Movie_revenues**: One-to-One relationship since each movie has a unique revenue record.  
+- **Movies → Movie_revenues**: One-to-One relationship since each movie has a unique revenue record.
+```  
 ---
 
-## 6. Sample Queries  
+### 6. Sample Queries  
 
 ### Retrieve all movies and their directors  
 ```sql
