@@ -154,6 +154,9 @@ The **Xquisite Production Database** provides a solid relational framework for m
 - **Gender values** are restricted to "M" and "F" only, excluding non-binary categories.  
 - The schema assumes each movie has only one director and one revenue record, which may not apply to co-directed or multi-studio productions.
 ---
-## About me 
+## About me
+- I transform complex data into clear, actionable insights.
+Using analytics, machine learning, and visualization, I help you understand trends, improve efficiency, and plan for the future.
 
+Connect with me @https://www.linkedin.com/in/adetokunbo-olasupo-70aa042a1
 
