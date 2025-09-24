@@ -123,14 +123,14 @@ CREATE TABLE Movies_actors (
 
 ### 6. Sample Queries  
 
-### Retrieve all movies and their directors  
+#### Retrieve all movies and their directors  
 ```sql
 SELECT m.movie_name, d.first_name, d.last_name
 FROM Movies m
 JOIN Directors d ON m.director_id = d.director_id;
 ```
 ---
-### List all Actors in a particular movie
+#### List all Actors in a particular movie
 ```
 SELECT a.first_name, a.last_name
 FROM Actors a
@@ -139,7 +139,7 @@ JOIN Movies m ON ma.movie_id = m.movie_id
 WHERE m.movie_name = 'Inception';
 ```
 ---
-### Get Revenue details of each movie
+#### Get Revenue details of each movie
 ```
 SELECT m.movie_name, r.domestic_takings, r.international_takings
 FROM Movies m
