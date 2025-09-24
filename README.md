@@ -10,14 +10,14 @@ The system provides a structured approach to handling film records, ensures data
 ---
 
 ## Table of Contents  
-1. Introduction  
-2. Database Design Process  
-3. Entity-Relationship (ER) Model  
-4. Database Schema and Tables  
-5. Relationships Between Tables  
-6. Sample Queries  
-7. Conclusion  
-8. Limitations  
+1. [Introduction](Introduction)
+2. [Database Design Process](Database_Design_process)  
+3. [Entity-Relationship (ER) Model](Entity_Relationship_(ER)_Model)
+4. [Database Schema and Tables](Database_Schema_and_Tables)  
+5. [Relationships Between Tables](Relationships_Between_Tables)  
+6. [Sample Queries](Sample_Queries) 
+7. [Conclusion](Conclusion)
+8. [Limitations](Limitations)
 
 ---
 
