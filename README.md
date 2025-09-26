@@ -1,4 +1,4 @@
-# Xquisite-Production-Database-Design-and-Implementation.
+# Xquisite-Production-Database-Design.
 **Xquisite Production - A relational Database for film management**
 
 ![image](Logo.png)
@@ -39,6 +39,8 @@ The design followed a **structured process**:
 ---
 
 ## 3. Entity-Relationship (ER) Model  
+
+![Image](ERD.png)
 - **Directors** direct multiple movies → *One-to-Many*  
 - **Movies** feature multiple actors, and **actors** can act in multiple movies → *Many-to-Many*  
 - **Movies** have a revenue record → *One-to-One*  
